@@ -8,6 +8,8 @@ int main() {
 	scanf("%d", &length);
 	printf("Enter the width: ");
 	scanf("%d", &width);
-	//add each of the 2 sides together
+	//calculate and print the perimeter
 	printf("Perimeter: %d\n", ((2 * width) + (2 * length)));
+	//calculate and print the area
+	printf("Area: %d\n", (width * length));
 }
