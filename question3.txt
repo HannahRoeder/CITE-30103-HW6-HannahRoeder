@@ -1,0 +1,1 @@
+if #include <stdio.h> is removed from a program that contains printf, it will fail during compilation. printf is a function and #include <stdio.h> has the declaration for it. You might get an error that says something like "implicit declaration of function 'printf'".
