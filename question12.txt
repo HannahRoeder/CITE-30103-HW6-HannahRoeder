@@ -1,0 +1,1 @@
+In C, the + operator has a higher precedence than <<, so the equation is being calculated as (a + b) << 1, so (5 + 3 ) << 1 --> 8 << 1 --> 16. To fix this, the developer should put parenthesis around b << 1, so res = a + (b << 1); Or, the developer can solve this arithmetically by writing res = a + b * 2; 
